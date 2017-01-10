@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  budget: 1
+  deadline: 2017-01-10
+
+two:
+  name: MyString
+  description: MyString
+  budget: 1
+  deadline: 2017-01-10
