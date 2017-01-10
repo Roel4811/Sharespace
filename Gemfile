@@ -21,6 +21,7 @@ gem 'haml'
 gem 'bootstrap-sass'
 gem 'simple_form'
 
+gem 'react-rails', '~> 1.0'
 
 group :development, :test do
   gem 'byebug', platform: :mri
