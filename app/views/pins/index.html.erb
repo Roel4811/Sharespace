@@ -1,1 +1,8 @@
 <h1> All of the Pins</h1>
+
+<%= link_to "New Pin", new_pin_path %>
+<%= @pins.each do |p| %>
+<h2> <%= link_to p.title, p  %> </h2>
+<%= p.description %>
+<% end %>
+
