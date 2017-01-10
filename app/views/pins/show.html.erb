@@ -3,3 +3,4 @@
 
  <%= link_to "Back to all the pin", root_path %>
  <%= link_to "Edit", edit_pin_path %>
+ <%= link_to "Delete", pin_path, method: :delete, data: {confirm: "Are you sure?"} %>
